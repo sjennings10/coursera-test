@@ -12,13 +12,80 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <title>Boostrap Starter Page</title>
+    <title>Assignment solution for Module 3</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet" type='text/css'>
+    <!--<link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'> -->
+    <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet" type='text/css'>
   </head>
 <body>
 
-  <h1>Hello Coursera!</h1>
+<!-- Navbar header-->
+
+<header>
+    <nav id="header-nav" class="navbar navbar-default navbar-static-top"> <!-- Navbar static top?-->
+      <div class="container">
+        
+        <div class="navbar-header">
+          <!--
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            <div id="logo-img"></div>
+          </a> -->
+
+          <div class="navbar-brand">
+            <h1>Food, LLC</h1>
+            <!--<a href="index.html"><h1>David Chu's China Bistro</h1></a> 
+
+            <p>
+              <img src="images/star-k-logo.png" alt="Kosher certification">
+              <span>Kosher Certified</span>
+            </p> -->
+            </div>
+
+<button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div> 
+
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li class="visible-xs">
+              <a href="#">
+                <span class="hidden-xs"></span>Chicken</a>
+            </li>
+            <li class="visible-xs">
+              <a href="#">
+                <span class="hidden-xs"></span>Beef</a>
+            </li>
+            <li class="visible-xs">
+              <a href="#">
+                <span class="hidden-xs"></span>Sushi</a>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+
+    <p class="text-center"> Menu</p>
+  
+
+  <div id="main-content" class="container">
+    <div class="col-xs-12">
+      <div class="jumbotron"> 
+          <p>This example demonstrates how to hide a navbar when the user starts to scroll the page.</p>
+          <p>Scroll down this frame to see the effect!</p>
+          <p>Scroll up to show the navbar.</p>
+          <p>Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+  </div>
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>

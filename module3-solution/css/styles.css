@@ -1,0 +1,120 @@
+body {
+  color: #000000;
+  background-color: #ddd;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+
+#header-nav {
+  background-color: #169B62;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  vertical-align: middle;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #ffff00;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #ffff00;
+}
+
+#nav-list {
+  margin-top: 10px;
+} 
+#nav-list a {
+  font-family: 'Lora', serif;
+  font-size:3vw;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  background: #ddd;
+  color: #ffff00;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #ffff00;
+  color: #000000;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+/* END HEADER */
+
+/* HOME PAGE */
+
+.text-center{
+  font-size: 5vw;
+  padding-bottom: 25px;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+}
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+.container .jumbotron {
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+  background-color: #ffff00;
+}
+
+.container .jumbotron p{
+  font-size: 4vw;
+}
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+.container .jumbotron {
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+  background-color: #ffff00;
+}
+
+.container .jumbotron p{
+  font-size: 4vw;
+}
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+ .container .jumbotron {
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+  background-color: #ffff00;
+}
+
+.container .jumbotron p{
+  font-size: 4vw;
+}
+}
+
+
+@media (max-width: 767px) {
+.container .jumbotron {
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+  background-color: #ffff00;
+}
+
+.container .jumbotron p{
+  font-size: 4vw;
+}
+
+/* END HOME PAGE */
+}
